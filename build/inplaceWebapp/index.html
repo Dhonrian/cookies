@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title> Vendas </title>
+		<meta charset="utf-8">
+
+	</head>	
+	<body>
+		<div>
+			<a href="index.html"> Busca </a>
+			<a href="estoque.html"> Estoque </a>
+		</div>
+		
+		<div>
+			<h2> Busca </h2>	
+		</div>
+
+		<div>
+			<form id="envio_prod" action="" method="get">
+				<input type="number" name="produto" placeholder="Produto ID"/>
+				<input type="number" name="quantidade"/>
+				<input type="submit" value="Adicionar">
+			</form>
+		</div>
+
+		<div>
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>Produto</th>
+					<th>Quantidade</th>
+					<th>Unidade </th>
+					<th>Preço</th>
+				</tr>
+				<tr>
+					<td> 0 </td>
+					<td> Agua  </td>
+					<td> 4 </td>
+					<td> L </td>
+					<td> 2.50 <td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<form id="Fechar_Compra" action="finalizacao.html" method="post">
+				<input type="submit" name="fechar_compra" value="Finalizar">
+			</form> 
+		</div>
+	</body>
+</html>
