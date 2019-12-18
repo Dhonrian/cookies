@@ -8,7 +8,8 @@ Alguns principios que se devem seguir são sobre coleção e armazenamento de in
 
 ## Aplicação
 
-A aplicação consiste no projeto de estoque da matéria de Laboratório de engenharia de dados, mas com a permissão do usuário de obter os dados necessários. Os dados sendo armazenados são: usuário (ID gerado aleatóriamente, lingua utilizada no navegador, latitude e longitude)
+A aplicação consiste no projeto de estoque da matéria de Laboratório de engenharia de dados, mas com a permissão do usuário de obter os dados necessários. Os dados sendo armazenados são: usuário (ID gerado aleatóriamente), lingua utilizada no navegador, latitude e longitude
+Feita em Java e Javascript.
 
 Para executar primeiro 
 ```
